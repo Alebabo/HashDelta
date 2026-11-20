@@ -1,0 +1,12 @@
+{
+  "delaySeconds": 2,
+  "maxEventsPerRun": 30,
+  "retentionDays": 30,
+  "reportBaselines": false,
+  "sources": [
+    {"id": "pricing", "type": "page", "url": "https://example.org/pricing",
+     "ignorePatterns": ["Last updated: [^.]*\\."], "maxChars": 1500},
+    {"id": "blog", "type": "feed", "url": "https://example.org/feed.xml", "stopAtKnown": true},
+    {"id": "news", "type": "discover", "url": "https://example.org/news"}
+  ]
+}
