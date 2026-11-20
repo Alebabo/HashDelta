@@ -155,3 +155,7 @@ new = hd.feed_delta(entries, seen_ids, max_chars=600, stop_at_known=True)
 ```bash
 python -m unittest discover -s tests -v
 ```
+
+## License
+
+MIT, see `LICENSE`.
