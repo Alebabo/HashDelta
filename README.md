@@ -156,6 +156,10 @@ new = hd.feed_delta(entries, seen_ids, max_chars=600, stop_at_known=True)
 python -m unittest discover -s tests -v
 ```
 
+## Used by
+
+- [MucLegal](https://github.com/Alebabo/MucLegal): monitors public web pages for the reappearance of prohibited business practices. It applies the same hash-before-model principle with its own evidence-grade normalization (main-content extraction, normalizer versioning, extraction safety gates). An LLM review runs only when the normalized hash changes.
+
 ## License
 
 MIT, see `LICENSE`.
